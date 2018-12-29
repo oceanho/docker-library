@@ -1,0 +1,7 @@
+"
+" OceanHo(me@oceanho.com) vim settings
+"
+:set number
+:set tabstop=2
+:set expandtab
+:set autoindent
