@@ -19,6 +19,7 @@ RUN apt-get update \
              inetutils-ping \
              net-tools \
              apache2-utils \
+             net-tools \
     && rm -rf /var/lib/apt/lists/*
 
 VOLUME "/etc/ssl"
