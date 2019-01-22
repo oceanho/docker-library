@@ -22,6 +22,9 @@ RUN apt-get update \
              dnsutils \
              telnet \
              iptables \
+             iproute2 \
+             tcpdump \
+             bash-completion \
     && rm -rf /var/lib/apt/lists/*
 
 VOLUME "/etc/ssl"
